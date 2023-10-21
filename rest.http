@@ -1,0 +1,33 @@
+GET http://localhost:3000/patient
+
+
+###Send
+POST http://localhost:3000/patient
+Content-Type: application/json
+
+{
+    "name": "PPErson1",
+    "age": 42,
+    "address": "95 Romulus dr",
+    "phone": "1237192371",
+    "email": "ohewldw@girlmail.com"
+}
+
+###Get patient by id
+GET http://localhost:3000/patient/65333ceaede3e28ce4a8ad09
+
+###PAtch patient by id
+
+PATCH http://localhost:3000/patient/id
+
+###Delete patient by id
+DELETE http://localhost:3000/patient/65333ceaede3e28ce4a8ad09
+
+###error handle
+GET http://localhost:3000/Home
+
+###test
+GET http://localhost:3000/test?name=mbp&price=20
+
+###test2
+GET http://localhost:3000/test/871263812

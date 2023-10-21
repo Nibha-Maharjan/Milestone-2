@@ -1,0 +1,15 @@
+{
+  "name": "milestone-2",
+  "version": "1.0.0",
+  "description": "Milestone 2",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Nibha Maharjan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  }
+}
